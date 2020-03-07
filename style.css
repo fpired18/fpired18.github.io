@@ -32,11 +32,11 @@ display: flex;
 @font-face
 {
     font-family: 'Dayrom';
-    src: url('Fonts/dayrom.eot');
-    src: url('Fonts/dayrom.eot?#iefix') format('embedded-opentype'),
-         url('Fonts/dayrom.woff') format('woff'),
-         url('Fonts/dayrom.ttf') format('truetype'),
-         url('Fonts/dayrom.svg#Dayrom') format('svg');
+    src: url('fonts/dayrom.eot');
+    src: url('fonts/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dayrom.woff') format('woff'),
+         url('fonts/dayrom.ttf') format('truetype'),
+         url('fonts/dayrom.svg#Dayrom') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -45,7 +45,7 @@ display: flex;
 
 body
 {
-    background: url('Images/fond_jaune.png');
+    background: url('images/fond_jaune.png');
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #181818;
 }
@@ -67,7 +67,7 @@ section h1, footer h1, nav a
 
 header
 {
-    background: url('Images/separateur.png') repeat-x bottom;
+    background: url('images/separateur.png') repeat-x bottom;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -143,7 +143,7 @@ nav a:hover
     margin-top: 15px;
     height: 200px;
     border-radius: 5px;
-    background: url('Images/BandeauLinkedin.png') no-repeat;
+    background: url('images/BandeauLinkedin.png') no-repeat;
     position: relative;
     box-shadow: 0px 4px 4px #1c1a19;
     margin-bottom: 25px;
@@ -170,7 +170,7 @@ nav a:hover
     position: absolute;
     right: 4px;
     bottom: 3px;
-    background: url('Images/fond_degraderouge.png') repeat-x;
+    background: url('images/fond_degraderouge.png') repeat-x;
     border: 1px solid #760001;
     border-radius: 5px;
     font-size: 1.2em;
@@ -256,7 +256,7 @@ aside img
 footer
 {
     display: flex;
-    background:  url('Images/ico_top.png') no-repeat top center, url('Images/separateur.png') repeat-x top, url('Images/ombre.png') repeat-x top;
+    background:  url('images/ico_top.png') no-repeat top center, url('images/separateur.png') repeat-x top, url('images/ombre.png') repeat-x top;
     padding-top: 25px;
 }
 
@@ -301,7 +301,7 @@ footer h1
 
 #mes_amis ul
 {
-    list-style-image: url('Images/ico_liensexterne.png');
+    list-style-image: url('images/ico_liensexterne.png');
     padding-left: 2px;
 }
 
