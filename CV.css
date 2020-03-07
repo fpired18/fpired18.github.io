@@ -1,0 +1,241 @@
+@media all and (max-width: 1024px)
+{
+	#conteneur 
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+}
+
+    .element:first-child
+    {
+        display: none;
+    }
+
+    .elementHeader:first-child
+    {
+        display: none;
+    }
+}
+
+#conteneurHeader 
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;	
+}
+
+.elementHeader:nth-child(1) 
+{
+	background-color: #000000;
+	border: 3px black outset;
+	border-radius: 20px / 10px;
+	width: 10px;
+	height: 200px;
+	margin-top: 10px;
+	margin-bottom: -60px;
+	margin-right: 70px;
+	flex: 0.46;
+}
+
+h1
+{
+	text-align: center;
+}
+
+.elementHeader:nth-child(2) 
+{
+	width: 400px;
+	flex: 4.6;
+}
+
+#conteneur 
+{
+	display: flex;
+	justify-content: space-between;	
+}
+
+.element:nth-child(1) {
+	background-color: #000000;
+	border: 3px black outset;
+	border-radius: 20px / 10px;
+	width: 10%;
+	height: 800px;
+	margin-top: -60px;
+	margin-bottom: 10px;
+	margin-right: 40px;
+	flex: 1;
+}
+/*color: white, silver, gray, black, red, maroon, lime, green, yellow, olive, blue, navy, fuchsia, purple, aqua, teal;*/
+.element:nth-child(2){
+	border: 4px ridge yellow;
+	flex: 2;
+}
+
+.element:nth-child(3){
+	border: 4px ridge lime;
+	flex: 3;
+}
+
+.element:nth-child(4){
+	border: 4px ridge gray;
+	flex: 5;
+}
+
+@font-face {
+	font-family: 'kaushanscriptregular';
+    src: url('fonts/KaushanScript-Regular') format('otf');
+    font-family: 'ambleregular';
+    src: url('fonts/Amble-Regular-webfont.woff') format('woff');
+    font-family: 'alexbrushregular';
+    src: url('fonts/AlexBrush-Regular') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.Un parcours athypique {
+	font-weight: bold;
+	color: purple;
+	text-shadow: 6px 6px 6px black;
+	text-decoration: underline;
+	font-family: 'kaushanscriptregular';
+	font-size: 35px;
+	width: 50%;
+	background-color: #e3e3e3;
+	margin-left: 50px;
+}
+
+h2:hover {
+	font-weight: bold;
+	color: white;
+	text-shadow: 6px 6px 6px black;
+	text-decoration: underline;
+	font-family: 'kaushanscriptregular';
+	font-size: 27px;
+	width: 85%;
+	background-color: #c5c5c5;
+}
+
+/*h3:hover {
+	font-weight: bold;
+	color: maroon;
+	text-shadow: 6px 6px 6px black;
+	text-decoration: underline;
+	font-family: 'ambleregular';
+	font-size: 25px;
+	width: 55%;
+	background-color: #c5c5c5;
+}*/
+
+a:hover{
+	font-family: 'ambleregular';
+	color: orange;
+}
+
+p:hover{
+	font-family: 'ambleregular';
+	font-weight: bold;
+	color: purple;
+	font-size: 17px;
+	border: 3px blue double;
+	border-radius: 20px / 10px;
+	width: 65%;
+	margin: auto;
+	background-color: #e3e3e3;
+	padding: 12px;
+} 
+
+button:hover{
+	font-family: 'ambleregular';
+	border-left: 3px solid black;
+	font-weight: bold;
+	color: purple;
+	font-size: 17px;
+	border: 3px blue double;
+	border-radius: 20px / 10px;
+	width: 65%;
+	margin: auto;
+	background-color: #c5c5c5;
+}
+
+ol:hover{
+	font-family: 'ambleregular';
+	border-left: 3px solid black;
+	font-weight: bold;
+	color: purple;
+	font-size: 17px;
+	border: 3px blue double;
+	border-radius: 20px / 10px;
+	width: 65%;
+	margin: auto;
+	background-color: #c5c5c5;
+}
+
+ul:hover{
+	font-family: 'ambleregular';
+	border-left: 3px outset;
+	font-weight: bold;
+	color: purple;
+	font-size: 17px;
+	border: 3px maroon outset;
+	border-radius: 20px / 10px;
+	width: 65%;
+	margin: auto;
+	width: 65%;
+	background-color: #c5c5c5;
+}
+
+table:hover{
+	font-family: 'alexbrushregular';
+	/*font-family: 'ambleregular';*/
+	font-weight: bold;
+	color: purple;
+	font-size: 20px;
+	background-color: #c5c5c5;
+	overflow: auto;
+}
+
+/*color: white, silver, gray, black, red, maroon, lime, green, yellow, olive, blue, navy, fuchsia, purple, aqua, teal;*/
+
+td:hover{
+	font-family: 'alexbrushregular';
+	border: 4px dashed green;
+}
+/* d'autre type de bordure solide, dotted, dashed, double, groove, ridge, inset, outset*/
+th:hover{
+	font-family: 'alexbrushregular';
+	border: 4px groove red;
+}
+
+caption:hover{
+	font-family: 'alexbrushregular';
+	border: 4px ridge lime;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+caption{
+	border: 1px solid yellow;
+}
+
+th, td{
+	border: 1px solid yellow;
+}
+
+.Alignement{
+	text-align: center;
+}
+
+body {
+	background-color: #2F2F1F;
+	background-image: url("images/ios_Iphone_landscape.jpg");
+	background-size: cover;
+  	box-shadow: 0 0 0 0px rgba(0,0,0,0.1) inset;
+  }
+
+.flottant {
+	float: right;
+}
