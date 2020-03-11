@@ -211,7 +211,7 @@ article
     margin-right: 8px;
 }
 
-article p
+article p, aside p
 {
     font-size: 0.8em;
 }
