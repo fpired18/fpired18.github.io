@@ -1,18 +1,18 @@
 #conteneur 
 {
-display: flex;	
+display: flex;  
 }
 
 #menu {
-	display: flex;
-	justify-content: space-around;
-	width: 300px;
-	border: 3px blue outset;
-	border-radius: 20px / 10px;
-	width: 65%;
-	margin: auto;
-	padding: 5px 2px 5px 2px;
-	color: red;
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    border: 3px blue outset;
+    border-radius: 20px / 10px;
+    width: 65%;
+    margin: auto;
+    padding: 5px 2px 5px 2px;
+    color: red;
 }
 
 /* Définition des polices personnalisées */
@@ -131,8 +131,8 @@ nav a
 
 nav a:hover
 {
-    color: #760001;
-    border-bottom: 3px solid #760001;
+    color: #3498db;
+    border-bottom: 13px solid #3498db;
 }
 
 
