@@ -55,7 +55,7 @@ body
 
 #bloc_page
 {
-    width: 860px;
+    width: 880px;
     margin: auto;
 }
 
@@ -146,7 +146,7 @@ nav a:hover
     margin-top: 15px;
     height: 200px;
     border-radius: 5px;
-    background: url('images/BandeauPortfolio.png') no-repeat;
+    background: url('images/BandeauPortFolio.png') no-repeat;
     position: relative;
     box-shadow: 0px 4px 4px #1c1a19;
     margin-bottom: 25px;
